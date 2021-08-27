@@ -22,6 +22,7 @@ OUT_PATH = -o /usr/local/bin/$(TRIGGER)
 
 linux-build: $(headers/*.h)
 	sudo $(CC) $(CFLAGS) $(SOURCES) $(OUT_PATH)
+	sudo $(CC) $(CFLAGS) $(SOURCES) -o $(wildcard bin/linux/)$(TRIGGER)
 
 cln:
 	-sudo rm $(OUT_PATH)
