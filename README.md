@@ -1,2 +1,5 @@
-# CAT
- An AI Chat Bot
+# C.A.T
+
+> **C**hat<br>
+> **A**i<br>
+> **T**echnology
